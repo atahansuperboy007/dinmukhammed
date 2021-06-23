@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(21deg, #a60fac, #5611ec);
+  color: black;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Helvetica;
+  margin: 0 240px;
+  padding: 24px 0;
+  color: #fff;
+}
+
+.logo{
+  font-size: 54px;
+  font-weight: bold;
+  color: black;
+}
+
+.search{
+  width: 30%;
+  font-family: Arial black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+
+.movie-list {
+  margin: 0 240px;
+  padding: 80px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  font-family: "Montserrat", sans-serif;
+}
+
+.movie-work h2 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding: 80px 0;
+  color: #fff;
+  font-size: 50px;
+}
+
+.movie-item {
+  width: 280px;
+}
+
+.movie-item img {
+  width: 300px;
+  border-radius: 8px; 
+   box-shadow: 0 0 5px 2px;
+}
+
+.movie-item h1 {
+  font-size: 20px;
+  padding: 8px 0;
+  color: #fff;
+  text-align: center;
+}
+
+.movie-item h5 {
+  font-size: 18px;
+  padding: 8px 0;
+}
+
+.movie-item p {
+  font-size: 15px;
+  padding: 10px 0;
+  color: black;
+}
+
+.movie-item img:hover {
+  opacity: 0.6;
+  transition: 0.4s ease-in-out;
+  color: #fff;
+}
+
+
+
+.links a:visited {
+  color: #fff;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  font-family:  Arial Black;
+}
+
+.links a{
+  padding: 0 15px;
+}
+
+.links a:hover{
+  opacity: 0.6;
+}
+
+.movie {
+  display: flex;
+  font-family: Helvetica;
+  color: #fff;
+}
+
+.movie img {
+  width: 500px;
+  margin: 0 30px 0 200px;
+  border-radius: 8px;
+}
+
+.movie-text {
+  padding: 20px 0;
+}
+
+.movie-text h1,
+.movie-text p,
+h3,
+h5 {
+  padding: 20px;
+}
+
+.movie-text p {
+  margin: 0 400px 0 0;
+}
+
+.movie-text h3 span {
+  background-color: green;
+}
+
+.form{
+  width: 100%;
+  display: flex;
+}
+
+.form input{
+  flex: 1;
+  height: 32px;
+  padding: 0 12px;
+  outline: none;
+}
+
+.form button{
+  width: 120px;
+  font-family: Arial ;
+}
+
+footer{
+  text-align: center;
+  padding: 70px 0;
+  font-family: Arial black;
+}
+
+.container{
+  position: absolute;
+  align-items: center;
+}
+
+.container a{
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  background: #f1f1f1;
+  margin: 10px;
+  border-radius: 30%;
+  text-align: center;
+}
+
+a i {
+  color: #08c;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.container a:hover {
+background: #08c;
+transition: 1s;
+}
+
+a:hover i {
+  color: #fff;
+  transition: 1s;
+  transform: scale(1.3)
+}
